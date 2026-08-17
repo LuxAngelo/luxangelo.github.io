@@ -42,7 +42,7 @@ nav a { transition:color .2s ease; } nav a:hover { color:#ead39a; }
 @keyframes waveOne { to { transform:translate(11vw,8vw) rotate(-8deg) scale(1.15); } } @keyframes waveTwo { to { transform:translate(-12vw,-8vw) rotate(8deg) scale(1.13); } } @keyframes waveThree { to { transform:translateY(44px) translateX(8vw) rotate(-6deg); opacity:.95; } } @keyframes orbPulse { to { transform:translate(-50px,35px) scale(1.28); opacity:.75; } } @keyframes ruleLight { 0%,28% { transform:translateX(-110%); } 58%,100% { transform:translateX(110%); } }
 @keyframes threadMove { to { transform:translateX(10vw) translateY(-22px) rotate(-6deg); opacity:.75; } }
 @media(max-width:720px) { .fabric-wave { filter:blur(16px); }.wave-three { width:130vw; }.fabric-orb { right:-80px; top:8%; } }
-.contact { background:linear-gradient(180deg,var(--cream),#ebe6db); }.contact h2 { max-width:800px; }.contact a { transition:color .2s ease,letter-spacing .2s ease; }.contact a:hover { color:var(--gold); letter-spacing:.02em; }
+.contact { background:linear-gradient(180deg,var(--cream),#ebe6db); }.contact h2 { max-width:800px; }.contact a { transition:color .2s ease,letter-spacing .2s ease; }.contact a:hover { color:var(--gold); letter-spacing:.02em; }.contact-disclaimer { max-width:540px;margin:20px auto 0;color:#59656f;font-size:12px;line-height:1.6; }
 footer { border-top:1px solid rgba(216,190,130,.18); } footer p:last-child { color:#d8be82; }
 @media(max-width:720px) { .hero { min-height:auto; }.hero-points { flex-wrap:wrap; row-gap:12px; margin-top:38px; }.hero-points span { padding:0 10px; }.hero-art { box-shadow:10px 12px 0 rgba(0,0,0,.1); }.approach-note { line-height:1.6; } }
 
